@@ -1,0 +1,75 @@
+.builder-canvas {
+  flex: 1;
+  height: 100%;
+  background: #f8fafc;
+  position: relative;
+}
+
+.builder-canvas .react-flow__pane {
+  cursor: default;
+}
+
+/* ─── Custom Zoom Controls ─── */
+
+.custom-zoom-controls {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  padding: 4px;
+  z-index: 5;
+}
+
+.zoom-btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: transparent;
+  border-radius: 6px;
+  color: #475569;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.zoom-btn:hover {
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+.zoom-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #475569;
+  min-width: 38px;
+  text-align: center;
+  user-select: none;
+}
+
+.fit-btn {
+  border-left: 1px solid #e2e8f0;
+  margin-left: 2px;
+  padding-left: 4px;
+}
+
+/* ─── Minimap ─── */
+
+.canvas-minimap {
+  background: #ffffff !important;
+  border-radius: 10px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+.react-flow__connection-line {
+  stroke: #4F46E5;
+  stroke-width: 2;
+}
