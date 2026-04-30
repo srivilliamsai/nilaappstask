@@ -22,15 +22,15 @@ This application provides a visual, drag-and-drop interface for building adaptiv
 
 ```
 ┌─────────────────┐        HTTP/JSON         ┌──────────────────────┐
-│    Frontend      │ ◄─────────────────────► │       Backend         │
-│  React 19 + TS   │                         │  Spring Boot 3.2.5    │
-│  Vite 8 (5173)   │                         │  Java 17 (8080)       │
-│                   │                         │                       │
-│  • React Flow     │                         │  • REST API           │
-│  • Zustand Store  │                         │  • JPA + H2 Database  │
-│  • Axios Client   │                         │  • JSON blob storage  │
-│  • Custom Nodes   │                         │  • Seed data (10 cmp) │
-└─────────────────┘                           └──────────────────────┘
+│    Frontend     │ ◄─────────────────────►  │       Backend        │
+│  React 19 + TS  │                          │  Spring Boot 3.2.5   │
+│  Vite 8 (5173)  │                          │  Java 17 (8080)      │
+│                 │                          │                      │
+│  • React Flow   │                          │  • REST API          │
+│  • Zustand Store│                          │  • JPA + H2 Database │
+│  • Axios Client │                          │  • JSON blob storage │
+│  • Custom Nodes │                          │  • Seed data (10 cmp)│
+└─────────────────┘                          └──────────────────────┘
 ```
 
 ---

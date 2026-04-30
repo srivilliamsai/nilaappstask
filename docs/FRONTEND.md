@@ -87,15 +87,15 @@ frontend/src/
 │  Left  │         BuilderCanvas                │  Properties  │
 │  Panel │    (React Flow + Custom Nodes)       │    Panel     │
 │        │                                      │              │
-│ Section│  ┌──────┐   ┌──────┐   ┌──────┐     │  Label       │
-│ Group  │  │Start │──►│Unit  │──►│ End  │     │  Description │
-│        │  └──────┘   └──────┘   └──────┘     │  Config      │
+│ Section│  ┌──────┐   ┌──────┐   ┌──────┐      │  Label       │
+│ Group  │  │Start │──►│Unit  │──►│ End  │      │  Description │
+│        │  └──────┘   └──────┘   └──────┘      │  Config      │
 │ How it │                                      │  Conditions  │
-│ works  │         [🔍 100% 🔍 ⛶]              │              │
+│ works  │         [🔍 100% 🔍 ⛶]               │              │
 │        │                                      │              │
 │ SAT    │         [───── MiniMap ─────]        │              │
 │ Example│                                      │              │
-├────────┴──────────────────────────────────────┴──────────────┤
+└────────┴──────────────────────────────────────┴──────────────┘
 ```
 
 ### Component Details
