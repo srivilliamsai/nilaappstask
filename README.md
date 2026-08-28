@@ -6,7 +6,7 @@ A full-stack web application that allows an admin or curriculum designer to crea
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 This application provides a visual, drag-and-drop interface for building adaptive learning paths. Users can:
 
@@ -18,7 +18,7 @@ This application provides a visual, drag-and-drop interface for building adaptiv
 
 ---
 
-## 🏗️ Architecture
+## ️ Architecture
 
 ```
 ┌─────────────────┐        HTTP/JSON         ┌──────────────────────┐
@@ -35,7 +35,7 @@ This application provides a visual, drag-and-drop interface for building adaptiv
 
 ---
 
-## 🛠️ Tech Stack
+## ️ Tech Stack
 
 | Layer        | Technology                          | Version  |
 |-------------|--------------------------------------|----------|
@@ -50,7 +50,7 @@ This application provides a visual, drag-and-drop interface for building adaptiv
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - **Java 17+** (OpenJDK/Temurin recommended)
 - **Maven 3.8+**
@@ -59,7 +59,7 @@ This application provides a visual, drag-and-drop interface for building adaptiv
 
 ---
 
-## 🚀 Setup & Run
+##  Setup & Run
 
 ### 1. Clone the repository
 ```bash
@@ -84,7 +84,7 @@ The frontend starts on **http://localhost:5173**. Open this URL in your browser.
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ### Backend (46 Tests)
 ```bash
@@ -123,9 +123,9 @@ npx vitest run
 
 **Test Execution Evidence:**
 ```text
- ✓ src/test/types/types.test.ts (11 tests) 5ms
- ✓ src/test/utils/idGenerator.test.ts (10 tests) 5ms
- ✓ src/test/store/canvasStore.test.ts (24 tests) 7ms
+  src/test/types/types.test.ts (11 tests) 5ms
+  src/test/utils/idGenerator.test.ts (10 tests) 5ms
+  src/test/store/canvasStore.test.ts (24 tests) 7ms
 
  Test Files  3 passed (3)
       Tests  45 passed (45)
@@ -150,7 +150,7 @@ npx eslint src/ --ext .ts,.tsx  # ESLint — 0 errors, 0 warnings
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint                    | Purpose                     | Status |
 |--------|----------------------------|-----------------------------|--------|
@@ -177,13 +177,13 @@ curl -s http://localhost:8080/api/learning-paths | jq
 
 ---
 
-## 🎨 Features
+##  Features
 
 ### Left Panel
 - **Section** card — Add quiz/assessment sections to the canvas
 - **Group** card — Add groups for conditional routing
 - **How it works** — Step-by-step usage guide
-- **Example: SAT Adaptive Test** — Visual tree showing conditional branching (Math Module 1 → Module 2 Easy/Advanced based on score threshold)
+- **Example: SAT Adaptive Test** — Visual tree showing conditional branching (Math Module 1  Module 2 Easy/Advanced based on score threshold)
 
 ### Interactive Canvas
 - **Drag-and-drop** nodes from the left panel
@@ -210,7 +210,7 @@ curl -s http://localhost:8080/api/learning-paths | jq
 
 ---
 
-## 📊 Seed Data
+##  Seed Data
 
 The application comes pre-loaded with 10 content components:
 
@@ -229,7 +229,7 @@ The application comes pre-loaded with 10 content components:
 
 ---
 
-## 📚 Library Choices & Justification
+##  Library Choices & Justification
 
 | Library          | Reason                                                                                      |
 |-----------------|--------------------------------------------------------------------------------------------|
@@ -242,7 +242,7 @@ The application comes pre-loaded with 10 content components:
 
 ---
 
-## 🎨 Design Decisions
+##  Design Decisions
 
 1. **JSON Blob Storage**: Learning paths are stored as raw JSON blobs rather than normalized relational tables. This preserves exact canvas state (positions, zoom, offsets) without complex ORM mapping for graph structures.
 
@@ -256,7 +256,7 @@ The application comes pre-loaded with 10 content components:
 
 ---
 
-## ⚖️ Assumptions & Tradeoffs
+## ️ Assumptions & Tradeoffs
 
 1. **In-memory database**: Data resets on backend restart. For production, switch to PostgreSQL by changing `application.properties` (see [BACKEND.md](docs/BACKEND.md#production-deployment)).
 
@@ -268,7 +268,7 @@ The application comes pre-loaded with 10 content components:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 adaptive-learning-path-builder/
@@ -313,7 +313,7 @@ adaptive-learning-path-builder/
 
 ---
 
-## 📖 Documentation
+##  Documentation
 
 | Document                      | Description                                |
 |------------------------------|---------------------------------------------|
@@ -324,7 +324,7 @@ adaptive-learning-path-builder/
 
 ---
 
-## ⏱️ Time Spent
+## ️ Time Spent
 
 | Phase                          | Time     |
 |-------------------------------|----------|
@@ -341,7 +341,7 @@ adaptive-learning-path-builder/
 
 ---
 
-## ✅ Submission Checklist Verification
+##  Submission Checklist Verification
 
 1. **Repository link:** Provided via code submission.
 2. **Time spent:** Documented in [Time Spent](#️-time-spent) (~7 hours).
